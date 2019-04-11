@@ -23,7 +23,7 @@ body, html {
 .bottomleft {
   position: absolute;
   bottom: 0;
-  left: 16px;
+  right: 16px;
 }
 
 .middle {
