@@ -9,7 +9,7 @@
 		<title>ACADEMIA DE LETRAS JURÍDICAS DA BAHIA</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/main.css"/>
 	</head>
 	<body class="is-preload">
 
@@ -22,15 +22,29 @@
 
 							<!-- Header -->
 								<header id="header">
-<div>
-									<img src="images/banner.jpg" class="responsive" style=“object-fit: cover”>
-</div>
+									<div>
+									<img src="images/banner.jpg" class="responsive" style="object-fit: cover">
+									</div>
 									<ul class="icons">
 		 								<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 										<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 										<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
 									</ul>
 								</header>
+								<div class="pcast-player" style="border-bottom: solid 5px #f56a6a; padding: 1em 0 1em 0">
+										<h2>Rádio ALJBA</h2>
+										<div class="pcast-player-controls">
+										  <button class="pcast-play"><i class="fa fa-play"></i><span>Play</span></button>
+										  <button class="pcast-pause"><i class="fa fa-pause"></i><span>Pausar</span></button>
+										  <button class="pcast-rewind"><i class="fa fa-fast-backward"></i><span>Rebobinar</span></button>
+										  <span class="pcast-currenttime pcast-time">00:00</span>
+										  <progress class="pcast-progress" value="0"></progress>
+										  <span class="pcast-duration pcast-time">49:46</span>
+										  <button class="pcast-speed">1x</button>
+										  <button class="pcast-mute"><i class="fa fa-volume-up"></i><span>Mutar/Desmutar</span></button>
+										</div>
+										<audio src="audios/podcast1.mp3"></audio>
+									  </div>
 
 							<!-- Banner -->
 								<div id="banner">
@@ -42,26 +56,29 @@
 									<header class="major">
 										<h2>EVENTOS</h2>
 									</header>
-									<div class="closts">
-										<article>
-											<a href="#" class="image responsive"><img src="images/csodre.jpg" alt="" /></a>
+									<div class="closts" style="margin-bottom: 0px">
+										<article style="margin-bottom: 110px">
+											
+											<a href="documents/concart12019.pdf"><img src="images/concart120192.png" class="responsive" alt=""></a>
+											<a href="documents/concart12019.pdf"><h2>EDITAL 001/2019 - SELEÇÃO DE ARTIGOS DOS ESTUDANTES</h2></a>
 										</article>
-										<article>
-											<a href="#" class="image responsive"><img src="images/cdidier.jpg" alt="" /></a>
-										</article>
-										<article>
-											<a href="#" class="image responsive"><img src="images/cpamppab.jpg" alt="" /></a>
-										</article>
-										<article>
-											<a href="#" class="image responsive"><img src="images/chabib.jpg" alt="" /></a>
+										<article style="margin-bottom: 110px">
+												<a href="documents/cadeiravaga12019.pdf"><img src="images/cadeiravaga12019.png" class="responsive" alt="" ></a>
+											<a href="documents/cadeiravaga12019.pdf"><h2>EDITAL 001/2019 - DECLARAÇÃO DE VAGA/ABERTURA DE INSCRIÇÕES</h2></a>
 										</article>
 									</div>
 																				<ul class="actions">
-												<li><a href="eventos.html" class="button">Ver mais</a></li>
+												<li><a href="eventos/eventos.html" class="button">Ver mais</a></li>
 											</ul>
 								</section>
-
-
+								<section>
+								<header class="major">
+									<h2>LOCALIZAÇÃO</h2>
+								</header>
+								<div>
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.5515263891675!2d-38.52514768556367!3d-13.000511263912122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716037e15a5594b%3A0xf41acc087d184c18!2sAcademia+de+Letras+Jur%C3%ADdicas+da+Bahia!5e0!3m2!1sen!2sbr!4v1560730249854!5m2!1sen!2sbr" class="responsive" frameborder="0" style="border:0; height: 450px" allowfullscreen></iframe>
+								</div>
+							</section>
 
 						</div>
 					</div>
@@ -80,22 +97,22 @@
 										<li>
 											<span class="opener">A Academia</span>
 											<ul>
-												<li><a href="origem.html">Origem</a></li>
-												<li><a href="sede.html">Sede</a></li>
+												<li><a href="academia/origem/origem.html">Origem</a></li>
+												<li><a href="academia/sede/sede.html">Sede</a></li>
 											</ul>
 										</li>
 										<li>
 											<span class="opener">Diretoria</span>
 											<ul>
-												<li><a href="diretoria.html">Atual</a></li>
-												<li><a href="presidentes.html">Quadro de Presidentes</a></li>
+												<li><a href="diretoria/atual/diretoria.html">Atual</a></li>
+												<li><a href="diretoria/presidentes/presidentes.html">Quadro de Presidentes</a></li>
 											</ul>
 										</li>
 										<li>
 											<span class="opener">Membros</span>
 											<ul>
-												<li><a href="fundadores.html">Fundadores</a></li>
-												<li><a href="membros.html">Atuais</a></li>
+												<li><a href="membros/fundadores/fundadores.html">Fundadores</a></li>
+												<li><a href="membros/atuais/membros.html">Atuais</a></li>
 											</ul>
 										</li>
 										<li>
@@ -131,6 +148,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/podcast.js"></script>
 
 	</body>
 </html>
